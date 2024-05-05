@@ -12,3 +12,4 @@ C:\Users\misch\Desktop\шарага\исис\LR6\Calculator\obj\Debug\net8.0\ref
 C:\Users\misch\Desktop\шарага\исис\LR6\Calculator\obj\Debug\net8.0\Calculator.pdb
 C:\Users\misch\Desktop\шарага\исис\LR6\Calculator\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
 C:\Users\misch\Desktop\шарага\исис\LR6\Calculator\obj\Debug\net8.0\ref\Calculator.dll
+C:\Users\misch\Desktop\шарага\исис\LR6\Calculator\obj\Debug\net8.0\Calculator.sourcelink.json
