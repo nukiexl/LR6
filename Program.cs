@@ -1,21 +1,23 @@
-﻿namespace Calculator
+﻿using System.Dynamic;
+
+namespace Calculator
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int num1, num2;
-            int result = 0;
+            double num1, num2;
+            double result = 0;
             char operation;
 
             Console.Write("Введите первое число: ");
-            num1 = int.Parse(Console.ReadLine());
+            num1 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Введите операцию (+, -, *, /): ");
             operation = Convert.ToChar(Console.ReadLine());
 
             Console.Write("Введите второе число: ");
-            num2 = int.Parse(Console.ReadLine());
+            num2 = Convert.ToDouble(Console.ReadLine());
 
             switch (operation)
             {
