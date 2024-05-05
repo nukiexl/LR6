@@ -29,7 +29,7 @@
                     result = num1 * num2;
                     break;
                 case '/':
-                        result = num1 / num2;
+                        result = num1 / num1;
                     break;
             }
 

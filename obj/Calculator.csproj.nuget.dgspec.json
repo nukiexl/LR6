@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\misch\\Desktop\\шарага\\исис\\LR6\\Calculator\\Calculator.csproj": {}
+    "C:\\Users\\misch\\Desktop\\шарага\\исис\\Calculator\\LR6\\Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\misch\\Desktop\\шарага\\исис\\LR6\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\misch\\Desktop\\шарага\\исис\\Calculator\\LR6\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\misch\\Desktop\\шарага\\исис\\LR6\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\misch\\Desktop\\шарага\\исис\\Calculator\\LR6\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\Users\\misch\\Desktop\\шарага\\исис\\LR6\\Calculator\\Calculator.csproj",
+        "projectPath": "C:\\Users\\misch\\Desktop\\шарага\\исис\\Calculator\\LR6\\Calculator.csproj",
         "packagesPath": "C:\\Users\\misch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\misch\\Desktop\\шарага\\исис\\LR6\\Calculator\\obj\\",
+        "outputPath": "C:\\Users\\misch\\Desktop\\шарага\\исис\\Calculator\\LR6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files\\Microsoft Visual Studio\\2022\\Shared\\NuGetPackages"
