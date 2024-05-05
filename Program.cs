@@ -4,47 +4,53 @@
     {
         static void Main(string[] args)
         {
-            int num1, num2;
-            int result = 0;
-            char operation;
-
-            Console.WriteLine("Приветствуем в простом калькуляторе на C#");
-            Console.WriteLine("---------------------------");
-
-            Console.Write("Введите первое число: ");
-            num1 = int.Parse(Console.ReadLine());
-
-            Console.Write("Введите операцию (+, -, *, /): ");
-            operation = Convert.ToChar(Console.ReadLine());
-
-            Console.Write("Введите второе число: ");
-            num2 = int.Parse(Console.ReadLine());
-
-            switch (operation)
+            do
             {
-                case '+':
-                    result = num1 + num2;
-                    break;
-                case '-':
-                    result = num1 - num2;
-                    break;
-                case '*':
-                    result = num1 * num2;
-                    break;
-                case '/':
-                    if (num2 != 0)
-                    {
-                        result = num1 / num2;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Ошибка: деление на ноль!");
-                        return;
-                    }
-                    break;
-            }
+                int num1, num2;
+                int result = 0;
+                char operation;
 
-            Console.WriteLine("Результат: " + result);
+                Console.WriteLine("Приветствуем в простом калькуляторе на C#");
+                Console.WriteLine("---------------------------");
+
+                Console.Write("Введите первое число: ");
+                num1 = int.Parse(Console.ReadLine());
+
+                Console.Write("Введите операцию (+, -, *, /): ");
+                operation = Convert.ToChar(Console.ReadLine());
+
+                Console.Write("Введите второе число: ");
+                num2 = int.Parse(Console.ReadLine());
+
+                switch (operation)
+                {
+                    case '+':
+                        result = num1 + num2;
+                        break;
+                    case '-':
+                        result = num1 - num2;
+                        break;
+                    case '*':
+                        result = num1 * num2;
+                        break;
+                    case '/':
+                        if (num2 != 0)
+                        {
+                            result = num1 / num2;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Ошибка: деление на ноль!");
+                            return;
+                        }
+                        break;
+                }
+
+                Console.WriteLine("Результат: " + result);
+
+                Console.Write("Завершить работу программы (Y / N)? ");
+            } while (Console.ReadLine().ToUpper() != "Y");
+
         }
     }
 }
