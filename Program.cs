@@ -8,6 +8,9 @@
             int result = 0;
             char operation;
 
+            Console.WriteLine("Приветствуем в простом калькуляторе на C#");
+            Console.WriteLine("---------------------------");
+
             Console.Write("Введите первое число: ");
             num1 = int.Parse(Console.ReadLine());
 
